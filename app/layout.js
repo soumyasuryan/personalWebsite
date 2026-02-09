@@ -10,6 +10,13 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+import { PT_Serif } from 'next/font/google';
+
+const ptSerif = PT_Serif({
+  weight: ['400', '700'], // Specify the weights you need
+  subsets: ['latin'], // Specify the character subsets
+  display: 'swap', // 'swap' ensures text is visible while the font loads
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -19,8 +26,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased ${ptSerif.className}`}
       >
         {children}
       </body>
