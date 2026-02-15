@@ -2,10 +2,10 @@ export default function NavBar(){
     return(
           <div className="flex justify-around py-10 text-white text-xl  w-[100%]">
             <div className="flex justify-center items-center gap-5">
-                <img src="/hamburger.svg" className="h-15 bg-yellow-400 p-3 rounded-[50%]" alt="" />
+                <img src="/hamburger.svg" className="h-10 sm:h-15 bg-yellow-400 p-3 rounded-[50%]" alt="" />
                 <div className="flex flex-col ">
-                    <h2 className="text-lg">Soumya Suryan</h2>
-                    <h4 className="text-sm">Web Developer</h4>
+                    <h2 className="text-sm sm:text-lg">Soumya Suryan</h2>
+                    <h4 className="text-xs sm:text-sm">Web Developer</h4>
                 </div>
              
             </div>
@@ -19,7 +19,7 @@ export default function NavBar(){
       <img
         src="github-white-icon.webp"
         alt="GitHub"
-        className="h-10 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:scale-105"
+        className="h-7 sm:h-10 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:scale-105"
       />
     </a>
   </li>
@@ -33,7 +33,7 @@ export default function NavBar(){
       <img
         src="insta-logo.png"
         alt="Instagram"
-        className="h-10 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:scale-105"
+        className="h-7 sm:h-10 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:scale-105"
       />
     </a>
   </li>
@@ -47,7 +47,7 @@ export default function NavBar(){
       <img
         src="linkedin-logo.png"
         alt="LinkedIn"
-        className="h-10 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:scale-105 rounded-sm"
+        className="h-7 sm:h-10 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:scale-105 rounded-sm"
       />
     </a>
   </li>
@@ -57,7 +57,7 @@ export default function NavBar(){
   <img
     src="gmail-logo.png"
     alt="Email"
-    className="h-10 cursor-pointer hover:-translate-y-1 transition-all duration-300"
+    className="h-7 sm:h-10 cursor-pointer hover:-translate-y-1 transition-all duration-300"
   />
 </a>
 

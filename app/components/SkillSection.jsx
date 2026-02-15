@@ -53,7 +53,7 @@ export default function SkillSection() {
         {/* Left Button */}
         <button
           onClick={prev}
-          className="absolute left-0 z-20 h-12 w-12 rounded-full border border-yellow-300/40 text-yellow-300 hover:bg-yellow-300/10 transition"
+          className="absolute left-0 z-20 h-12 w-12 rounded-full md:border border-yellow-300/40 text-yellow-300 hover:bg-yellow-300/10 transition"
         >
           ◀
         </button>
@@ -79,7 +79,7 @@ export default function SkillSection() {
         {/* Right Button */}
         <button
           onClick={next}
-          className="absolute right-0 z-20 h-12 w-12 rounded-full border border-yellow-300/40 text-yellow-300 hover:bg-yellow-300/10 transition"
+          className="absolute right-0 z-20 h-12 w-12 rounded-full md:border border-yellow-300/40 text-yellow-300 hover:bg-yellow-300/10 transition"
         >
           ▶
         </button>

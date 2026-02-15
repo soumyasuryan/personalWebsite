@@ -32,7 +32,7 @@ export default function OrbitCard({ category, items }) {
   const step = 360 / items.length;
 
   return (
-    <div className="relative min-h-100 w-100 rounded-full bg-gradient-to-br from-[#2b0d46] to-[#1e0730] flex items-center justify-center group">
+    <div className="relative min-h-100 w-100 rounded-full bg-gradient-to-br md:from-[#2b0d46] md:to-[#1e0730] flex items-center justify-center group">
 
    
 {/* Orbit container */}
