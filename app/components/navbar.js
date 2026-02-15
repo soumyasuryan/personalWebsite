@@ -55,9 +55,9 @@ export default function NavBar(){
   <li>
     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=soumyasuryan86@gmail.com" target="_blank">
   <img
-    src="gmail-logo.png"
+    src="gmail-logo.svg"
     alt="Email"
-    className="h-7 sm:h-10 cursor-pointer hover:-translate-y-1 transition-all duration-300"
+    className="h-5 sm:h-7 cursor-pointer hover:-translate-y-1 transition-all duration-300"
   />
 </a>
 
